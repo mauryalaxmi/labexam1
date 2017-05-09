@@ -9,7 +9,7 @@ public class CarTest {
 	Car car1;
 	@Before
 	public void setUp() throws Exception {
-		Car car1=new Car(100);
+		 car1=new Car(100);
 	}
 
 	@Test
@@ -21,7 +21,8 @@ public class CarTest {
 	@Test
 	public void testGetEngineCapcity() {
 		//fail("Not yet implemented");
-		
+		car1.getEngineCapcity(40);
+		assertEquals(140,car1.getengineCapcity());
 	}
 
 }
