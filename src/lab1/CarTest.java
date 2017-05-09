@@ -21,8 +21,8 @@ public class CarTest {
 	@Test
 	public void testGetEngineCapcity() {
 		//fail("Not yet implemented");
-		car1.getEngineCapcity(40);
-		assertEquals(140,car1.getengineCapcity());
+		car1.getEngineCapcity(4);
+		assertEquals(416,car1.getengineCapcity());
 	}
 
 }

@@ -14,6 +14,7 @@ public class Car {
 
 	public int getEngineCapcity(int extracapacity) {
 		this.engineCapcity=this.engineCapcity + extracapacity ;
+		this.engineCapcity=this.engineCapcity  * extracapacity ;
 		return  engineCapcity;
 	}
 }
